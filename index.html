@@ -27,6 +27,13 @@
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
           }
+
+          #styled-heading {
+            color: white;
+            text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+            font-family: 'Arial', sans-serif;
+            font-size: 50px;
+        }
     </style>
 </head>
 <body>
@@ -37,7 +44,7 @@
         <div class="header-content">
             <div class="logo">
                 <a class="navbar-brand" href="index.html">
-                    <img src="logo.png" alt="SBNA Logo" style="height: 50px;"> <!-- Replace with your logo -->
+                    <img src="logo.png" alt="SBNA Logo" style="height: 50px;">
                 </a>
             </div>
             <nav class="main-nav">
@@ -61,8 +68,8 @@
     <main>
         <section id="home" class="hero">
             <div class="hero-content">
-                <h1 class="glitch" data-text="SBNA">SBNA</h1><br/>
-                <h1 class="glitch" data-text="Laboratory">Laboratory</h1>
+                <h1 id="styled-heading">SBNA</h1><br/>
+                <h1 id="styled-heading">Laboratory</h1>
                 <p class="hero-text">Welcome to the Social & Biological Network Analysis Laboratory (SBNA), where we explore the intricate connections within social and biological systems. Our interdisciplinary research delves into the complex networks that shape our world, combining insights from social sciences and biology to unravel the mysteries of interconnectedness. Join us as we dissect, analyze, and understand the dynamics of networks that drive human and natural phenomena."</p>
                 <a href="#about" class="cta-button">Explore Our Innovations</a>
             </div>
